@@ -10,6 +10,8 @@ select * from courseacademic inner join prereq on courseacademic.course_id = pre
 
 select * from instructor 
 
+#test 2
+
 #A view. This is akin to alias in Linux
 create view mclaren_drivers as select * from instructor where dept_name = 'McLaren F1'
 
